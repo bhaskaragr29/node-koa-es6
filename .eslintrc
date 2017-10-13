@@ -1,0 +1,28 @@
+{
+    "extends": [
+        "eslint:recommended",
+    ],
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "rules": {
+        "indent": ["error", 4],
+        "linebreak-style": ["error", "unix"],
+        "quotes": ["error", "single"],
+        "semi": ["error", "always"],
+        "no-multiple-empty-lines": ["error", { "max": 1 }],
+        "no-cond-assign": ["error", "always"],
+        "arrow-parens": ["error", "as-needed"],
+        "no-console": 0
+    },
+    "globals": {
+        "before": true,
+        "beforeEach": true,
+        "afterEach": true,
+        "after": true,
+        "describe": true,
+        "context": true,
+        "it": true
+  }
+}
